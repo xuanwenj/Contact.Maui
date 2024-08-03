@@ -9,6 +9,7 @@ public partial class AddContactPage : ContentPage
 
     private void BtnCanel_Clicked(object sender, EventArgs e)
     {
-		Shell.Current.GoToAsync("..");
+		Shell.Current.GoToAsync(nameof(ContactPage));
+
     }
 }
